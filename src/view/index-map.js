@@ -1,7 +1,7 @@
 import {renderFunc} from './units/render';
 
-const link = '<link rel="stylesheet" type="text/css" href="./css/index.css">\n' +
-  '    <link rel="stylesheet" type="text/css" href="./css/contentmap.css">';
+const link = '<link rel="stylesheet" type="text/css" href="./css/index.css " class="updatableLink">\n' +
+  '    <link rel="stylesheet" type="text/css" href="./css/contentmap.css" class="updatableLink">';
 
 export const renderMap=()=>{
   renderFunc( ' <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=60.62530517578126%2C56.83777599238421%2C60.66822052001954%2C56.85291442389756&amp;layer=mapnik"></iframe>\n' +

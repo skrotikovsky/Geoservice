@@ -5,17 +5,15 @@ const RenderPosition = {
   AFTEREND : 'afterend',
 };
 
-const linkConteiner = document.querySelector('head');
-const contentConteiner = document.querySelector('content');
-
-
+const linkContainer = document.querySelector('head');
+const contentContainer = document.querySelector('content');
 
 const renderTemplate = (container, template, place) => {
   container.insertAdjacentHTML(place, template);
 };
 
 export const renderFunc = (content,link) => {
-  renderTemplate(contentConteiner, content, RenderPosition.AFTERBEGIN);
-  renderTemplate(linkConteiner,link,RenderPosition.AFTERBEGIN);
+  renderTemplate(contentContainer, content, RenderPosition.AFTERBEGIN);
+  renderTemplate(linkContainer,link,RenderPosition.AFTERBEGIN);
 };
 

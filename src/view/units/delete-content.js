@@ -1,7 +1,9 @@
 
 export const deleteFunction=()=>{
   const content = document.querySelector('content');
-  const link = document.querySelector('head');
   content.innerHTML='';
-  link.innerHTML='';
+  const links = document.querySelectorAll('.updatableLink');
+  links.forEach((e) => {
+    e.remove();
+  });
 };

@@ -1,6 +1,6 @@
 import {renderFunc} from './units/render';
 
-const link = '<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/index.css\">';
+const link = '<link rel="stylesheet" type="text/css" href="./css/index.css" class="updatableLink">';
 const content = `<div class="main">
             <div class="new-block">
                 <div class="head">
