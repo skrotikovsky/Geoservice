@@ -1,10 +1,10 @@
+import {renderAuthe} from './units/renderAuthe';
 import {renderFunc} from './units/render';
 
-const link='<link rel="stylesheet" type="text/css" href="./css/reg.css';
+const link='<link rel="stylesheet" type="text/css" href="./css/reg.css class="updatableLink"';
 
 export const renderAuth=()=>{
-  renderFunc('     <main>\n' +
-    '        <div class="reg-container reg-container-auth">\n' +
+  renderFunc('<div class="reg-container reg-container-auth">\n' +
     '            <a href="#"><i class="fa-solid fa-xmark"></i></a>\n' +
     '            <div class="form-fields">\n' +
     '                <i class="fa-solid fa-envelope"></i>\n' +
@@ -21,6 +21,5 @@ export const renderAuth=()=>{
     '                <div class="divinder">или</div>\n' +
     '                <a href="#" class="button btn-google">Google</a>\n' +
     '            </div>\n' +
-    '        </div>\n' +
-    '    </main>\n', link);
+    '        </div>', link);
 };
