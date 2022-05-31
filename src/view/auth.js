@@ -1,7 +1,6 @@
 import {renderAuthe} from './units/renderAuthe';
 
-const link='<link rel="stylesheet" type="text/css" href="./css/reg.css" class="updatableLink">\n'
-  + '<link rel="stylesheet" type="text/css" href="./css/index.css" class="updatableLink">' ;
+const link='<link rel="stylesheet" type="text/css" href="./css/reg.css" class="updatableLink">';
 
 export const renderAuthetication=()=>{
   renderAuthe('<div class="reg-container reg-container-auth">\n' +
