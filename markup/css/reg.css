@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* Общие настройки всей верстки */
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +29,7 @@ h1 {
 }
 
 body {
-  background: url("/static/index/img/bg.png");
+  background: url("./bg.png");
 }
 
 @-webkit-keyframes gradient {

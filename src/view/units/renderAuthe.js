@@ -14,5 +14,5 @@ const renderTemplate = (container, template, place) => {
 
 export const renderAuthe = (content,link) => {
   renderTemplate(contentContainer, content, RenderPosition.AFTERBEGIN);
-  renderTemplate(linkContainer,link,RenderPosition.AFTERBEGIN);
+  renderTemplate(linkContainer,link,RenderPosition.BEFOREEND);
 };
